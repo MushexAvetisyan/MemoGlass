@@ -1,0 +1,30 @@
+@use './variables' as *;
+
+.glass {
+  background: $glass-bg;
+  border: 1px solid $border;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.glass-strong {
+  background: $glass-bg-strong;
+  border: 1px solid $border;
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
+}
+
+.glow-red {
+  box-shadow:
+          0 0 30px rgba(255, 48, 79, 0.12);
+}
+
+.glow-green {
+  box-shadow:
+          0 0 30px rgba(53, 229, 140, 0.12);
+}
+
+.glow-purple {
+  box-shadow:
+          0 0 30px rgba(155, 92, 255, 0.14);
+}
